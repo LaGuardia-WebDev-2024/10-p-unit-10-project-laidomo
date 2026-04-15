@@ -1,13 +1,18 @@
-var starXPos = [];
-var starYPos = [];
-var star = "⭐️";
-var starTotal = 100;
+var starXPos = [700];
+var starYPos = [700];
+var star = "🐳"; //distracter
+var starTotal = 900;
 
 var planetXPos = [];
 var planetYPos = [];
-var planet = "🪐";
-var planetTotal = 3;
+var planet = "🦠";
+var planetTotal = 13;
 var planetFound = 0;
+var x = 0;
+while(x <400){
+
+  
+}
 
 setup = function() {
    size(600, 450); 
